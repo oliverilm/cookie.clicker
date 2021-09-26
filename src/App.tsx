@@ -18,10 +18,10 @@ function App() {
         flexDirection: "row",
       } }>
         <Buffs />
-        <div style={{position: "relative"}}>
-          <div style={{width: "100%", textAlign: "center"}}>
+        <div style={{width: "100%", margin: "auto", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
+          <h3 style={{width: "100%", textAlign: "center"}}>
             {Number(score.toFixed(0)).toLocaleString()} Cookies collected
-          </div>
+          </h3>
           <Cookie />
         </div>
     </div>

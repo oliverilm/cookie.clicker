@@ -20,6 +20,7 @@ const Buffs: React.FC = () => {
 interface BuffProps {
   buff: BuffType;
 }
+
 const BuffElement: React.FC<BuffProps> = ({buff}) => {
   const dispatch = useAppDispatch();
   const {activatedBuffs, score} = useAppSelector(state => state.score)

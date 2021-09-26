@@ -7,7 +7,7 @@ const buffList: BuffType[] = [
     name: "Tigu",
     image: snailImage,
     price: 10,
-    bonusTickValue: 0.001,
+    bonusTickValue: 0.0005,
     bonusClickValue: 1,
     maxLevel: 100,
     level: 0
@@ -17,7 +17,7 @@ const buffList: BuffType[] = [
     name: "Laiskloom",
     image: autoClicker,
     price: 100,
-    bonusTickValue: 0.005,
+    bonusTickValue: 0.001,
     bonusClickValue: 0,
     maxLevel: 100,
     level: 0
@@ -26,8 +26,8 @@ const buffList: BuffType[] = [
   {
     name: "Muumi",
     image: autoClicker,
-    price: 100,
-    bonusTickValue: 0.005,
+    price: 500,
+    bonusTickValue: 0.002,
     bonusClickValue: 0,
     maxLevel: 100,
     level: 0
@@ -35,8 +35,8 @@ const buffList: BuffType[] = [
   {
     name: "Kits",
     image: autoClicker,
-    price: 100,
-    bonusTickValue: 0.005,
+    price: 1000,
+    bonusTickValue: 0.0035,
     bonusClickValue: 0,
     maxLevel: 100,
     level: 0
@@ -44,7 +44,7 @@ const buffList: BuffType[] = [
   {
     name: "Gepard",
     image: autoClicker,
-    price: 100,
+    price: 5000,
     bonusTickValue: 0.005,
     bonusClickValue: 0,
     maxLevel: 100,
